@@ -24,7 +24,7 @@ public class Main {
 
             // Creating the quote with the author
             try {
-                if (time.equals("14:50:00")){
+                if (time.equals("13:00:00")){
 
                     Quote DailyQuote = new Quote();
                     quote = DailyQuote.getQuote();
