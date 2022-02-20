@@ -1,6 +1,6 @@
 # Stoibot
 ### The philosophical twitter bot, every day, a random stoic quote
-### Current version: 0.8 
+### Current version: 0.8 (20/02/2022)
 ### Current status: Waiting to elevated access to the API Twitter to test the system
 #### Author: https://juliancampos.es
 #### Twitter account: https://twitter.com/citasestoicas
