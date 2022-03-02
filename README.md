@@ -8,7 +8,6 @@
 
 Stoibot is a JAVA based bot to tweet every day a quote from a stoic author. The target of the bot is create a simple mysql and java based system to test some libraries and the mysql driver.
 
-The system is not finished yet. We need the elevated access to the API Twitter to post the quote, so I can't test the API yet and I don't know if it works properly. I'm still waiting...
 
 ## Technologies
 
