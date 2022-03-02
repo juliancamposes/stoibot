@@ -1,7 +1,7 @@
 # Stoibot
 ### The philosophical twitter bot, every day, a random stoic quote
-### Current version: 0.8 (20/02/2022)
-### Current status: Waiting to elevated access to the API Twitter to test the system
+### Current version: 1.0 (02/03/2022)
+### Current status: Working
 #### Author: https://juliancampos.es
 #### Twitter account: https://twitter.com/citasestoicas
 #
@@ -36,9 +36,7 @@ You have a file named twitter4j.properties where you should define your Twitter 
 
 ## Next Step:
 
-I've applied for the elevated access for the API of Twitter. When I could, I'll test that the program tweets properly the quote.
-
-The connection to the API is correct (tested with Twitter.getInstance()).
+Studying different functionalities to the bot.
 
 
 
