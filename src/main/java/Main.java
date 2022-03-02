@@ -30,7 +30,6 @@ public class Main {
                     quote = DailyQuote.getQuote();
                     author = DailyQuote.getAuthor();
                     tweetOfTheDay = createTweet(quote, author);
-                    System.out.println(tweetOfTheDay);
 
                     //Twitter API using Twitter4j library
                     //For tweet you need higher access level than essential (Elevated access)
@@ -55,7 +54,7 @@ public class Main {
 
     public static String createTweet(String quote, String author){
         String authorWithoutSpaces = author.replace(" ","");
-        String tweetOfTheDay = "\""+ quote + "\"\n" + author + "\n#filosofia #estoicismo #"+authorWithoutSpaces+" #citasestoicas";
+        String tweetOfTheDay = "\""+ quote + "\"\n\n" + author + "\n\n#filosofia #estoicismo #"+authorWithoutSpaces+" #citasestoicas";
 
         //checking the number of characters and shorting if it is more than 160
 
