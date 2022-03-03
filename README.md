@@ -6,7 +6,7 @@
 #### Twitter account: https://twitter.com/citasestoicas
 #
 
-Stoibot is a JAVA based bot to tweet every day a quote from a stoic author. The target of the bot is create a simple mysql and java based system to test some libraries and the mysql driver.
+Stoibot is a JAVA based bot to tweet every day a quote from a stoic author. The target of the bot is create a simple mysql/mariaDB and java based system to test some libraries and the mysql driver.
 
 
 ## Technologies
@@ -14,13 +14,13 @@ Stoibot is a JAVA based bot to tweet every day a quote from a stoic author. The 
 The bot is working with JAVA, a simple relational database (MySQL), differents JAVA Maven libraries:
 
 - JAVA SE
-- MySQL database
+- MySQL/MariaDB database
 - MySQL-connector library
 - Twitter4j library
 
 ## How does it work?
 
-For the bot I've created a simple MySQL database with 1 table and 3 rows:
+For the bot I've created a simple MySQL/MariaDB database with 1 table and 3 rows:
 - Id: primary id with autoincrement
 - Quote: varchar with the text of the quote
 - Author: varchar with the author name
