@@ -52,16 +52,16 @@ public class Main {
         }
     }
 
-    public static String createTweet(String quote, String author){
+       public static String createTweet(String quote, String author){
         String authorWithoutSpaces = author.replace(" ","");
         String tweetOfTheDay = "\""+ quote + "\"\n\n" + author + "\n\n#filosofia #estoicismo #"+authorWithoutSpaces+" #citasestoicas";
 
-        //checking the number of characters and shorting if it is more than 160
+        //checking the number of characters and shorting if it is more than 280
 
         int sizeOfTweet = tweetOfTheDay.length();
 
-        if(sizeOfTweet > 160){
-            tweetOfTheDay = tweetOfTheDay.substring(0, 156);
+        if(sizeOfTweet > 280){
+            tweetOfTheDay = tweetOfTheDay.substring(0, 276);
             tweetOfTheDay = tweetOfTheDay + " ...";
         }
 
